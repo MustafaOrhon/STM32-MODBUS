@@ -1,0 +1,24 @@
+# Ignore build folders
+build/
+Debug/
+Release/
+
+# Ignore object files, ELF files, and HEX files
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+
+# Ignore IDE-specific files
+*.launch
+*.settings
+.vscode/
+.project
+.cproject
+
+# Ignore system files
+Thumbs.db
+.DS_Store
+*.swp
